@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E16777B1EC889AA0053C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */; };
+		1E16777D1EC889AA0053C4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16777C1EC889AA0053C4E8 /* ViewController.swift */; };
+		1E1677801EC889AC0053C4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E16777E1EC889AC0053C4E8 /* Main.storyboard */; };
+		1E1677821EC889AD0053C4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1677811EC889AD0053C4E8 /* Assets.xcassets */; };
+		1E1677851EC889AD0053C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1677831EC889AD0053C4E8 /* LaunchScreen.storyboard */; };
+		1E1677901EC889AE0053C4E8 /* GrapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16778F1EC889AE0053C4E8 /* GrapesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E16778C1EC889AE0053C4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E16776F1EC889A60053C4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E1677761EC889A90053C4E8;
+			remoteInfo = Grapes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E1677771EC889AA0053C4E8 /* Grapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E16777C1EC889AA0053C4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E16777F1EC889AC0053C4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E1677811EC889AD0053C4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E1677841EC889AD0053C4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E1677861EC889AD0053C4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E16778B1EC889AE0053C4E8 /* GrapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E16778F1EC889AE0053C4E8 /* GrapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapesTests.swift; sourceTree = "<group>"; };
+		1E1677911EC889AF0053C4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1677741EC889A90053C4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1677881EC889AE0053C4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E16776E1EC889A50053C4E8 = {
+			isa = PBXGroup;
+			children = (
+				1E1677791EC889AA0053C4E8 /* Grapes */,
+				1E16778E1EC889AE0053C4E8 /* GrapesTests */,
+				1E1677781EC889AA0053C4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E1677781EC889AA0053C4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1677771EC889AA0053C4E8 /* Grapes.app */,
+				1E16778B1EC889AE0053C4E8 /* GrapesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E1677791EC889AA0053C4E8 /* Grapes */ = {
+			isa = PBXGroup;
+			children = (
+				1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */,
+				1E16777C1EC889AA0053C4E8 /* ViewController.swift */,
+				1E16777E1EC889AC0053C4E8 /* Main.storyboard */,
+				1E1677811EC889AD0053C4E8 /* Assets.xcassets */,
+				1E1677831EC889AD0053C4E8 /* LaunchScreen.storyboard */,
+				1E1677861EC889AD0053C4E8 /* Info.plist */,
+			);
+			path = Grapes;
+			sourceTree = "<group>";
+		};
+		1E16778E1EC889AE0053C4E8 /* GrapesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E16778F1EC889AE0053C4E8 /* GrapesTests.swift */,
+				1E1677911EC889AF0053C4E8 /* Info.plist */,
+			);
+			path = GrapesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E1677761EC889A90053C4E8 /* Grapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1677941EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "Grapes" */;
+			buildPhases = (
+				1E1677731EC889A90053C4E8 /* Sources */,
+				1E1677741EC889A90053C4E8 /* Frameworks */,
+				1E1677751EC889A90053C4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grapes;
+			productName = Grapes;
+			productReference = 1E1677771EC889AA0053C4E8 /* Grapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E16778A1EC889AE0053C4E8 /* GrapesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1677971EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "GrapesTests" */;
+			buildPhases = (
+				1E1677871EC889AE0053C4E8 /* Sources */,
+				1E1677881EC889AE0053C4E8 /* Frameworks */,
+				1E1677891EC889AE0053C4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E16778D1EC889AE0053C4E8 /* PBXTargetDependency */,
+			);
+			name = GrapesTests;
+			productName = GrapesTests;
+			productReference = 1E16778B1EC889AE0053C4E8 /* GrapesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E16776F1EC889A60053C4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mahmoud SMGL";
+				TargetAttributes = {
+					1E1677761EC889A90053C4E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5PD448JSVP;
+						ProvisioningStyle = Automatic;
+					};
+					1E16778A1EC889AE0053C4E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5PD448JSVP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E1677761EC889A90053C4E8;
+					};
+				};
+			};
+			buildConfigurationList = 1E1677721EC889A80053C4E8 /* Build configuration list for PBXProject "Grapes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E16776E1EC889A50053C4E8;
+			productRefGroup = 1E1677781EC889AA0053C4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E1677761EC889A90053C4E8 /* Grapes */,
+				1E16778A1EC889AE0053C4E8 /* GrapesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1677751EC889A90053C4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1677851EC889AD0053C4E8 /* LaunchScreen.storyboard in Resources */,
+				1E1677821EC889AD0053C4E8 /* Assets.xcassets in Resources */,
+				1E1677801EC889AC0053C4E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1677891EC889AE0053C4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1677731EC889A90053C4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E16777D1EC889AA0053C4E8 /* ViewController.swift in Sources */,
+				1E16777B1EC889AA0053C4E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1677871EC889AE0053C4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1677901EC889AE0053C4E8 /* GrapesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E16778D1EC889AE0053C4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E1677761EC889A90053C4E8 /* Grapes */;
+			targetProxy = 1E16778C1EC889AE0053C4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E16777E1EC889AC0053C4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E16777F1EC889AC0053C4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E1677831EC889AD0053C4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1677841EC889AD0053C4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E1677921EC889AF0053C4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E1677931EC889AF0053C4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E1677951EC889AF0053C4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = Grapes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.Grapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E1677961EC889AF0053C4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = Grapes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.Grapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1E1677981EC889AF0053C4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = GrapesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.GrapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grapes.app/Grapes";
+			};
+			name = Debug;
+		};
+		1E1677991EC889AF0053C4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PD448JSVP;
+				INFOPLIST_FILE = GrapesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.GrapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grapes.app/Grapes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1677721EC889A80053C4E8 /* Build configuration list for PBXProject "Grapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1677921EC889AF0053C4E8 /* Debug */,
+				1E1677931EC889AF0053C4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E1677941EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "Grapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1677951EC889AF0053C4E8 /* Debug */,
+				1E1677961EC889AF0053C4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E1677971EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "GrapesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1677981EC889AF0053C4E8 /* Debug */,
+				1E1677991EC889AF0053C4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E16776F1EC889A60053C4E8 /* Project object */;
+}
