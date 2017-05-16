@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1E16777B1EC889AA0053C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */; };
-		1E16777D1EC889AA0053C4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16777C1EC889AA0053C4E8 /* ViewController.swift */; };
+		1E16777D1EC889AA0053C4E8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16777C1EC889AA0053C4E8 /* MainVC.swift */; };
 		1E1677801EC889AC0053C4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E16777E1EC889AC0053C4E8 /* Main.storyboard */; };
 		1E1677821EC889AD0053C4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1677811EC889AD0053C4E8 /* Assets.xcassets */; };
 		1E1677851EC889AD0053C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1677831EC889AD0053C4E8 /* LaunchScreen.storyboard */; };
 		1E1677901EC889AE0053C4E8 /* GrapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16778F1EC889AE0053C4E8 /* GrapesTests.swift */; };
+		1E16779E1EC88D6F0053C4E8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16779D1EC88D6F0053C4E8 /* CollectionViewCell.swift */; };
+		1E1677A01EC891F80053C4E8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16779F1EC891F80053C4E8 /* Product.swift */; };
+		1E6626671EC9D31C0001275F /* DropShadow Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6626661EC9D31C0001275F /* DropShadow Protocol.swift */; };
+		1E6626691EC9D33F0001275F /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6626681EC9D33F0001275F /* FancyView.swift */; };
+		1E66266B1EC9D64B0001275F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E66266A1EC9D64B0001275F /* Constants.swift */; };
+		1EF134121ECA4104000363C1 /* ProductLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF134111ECA4104000363C1 /* ProductLayout.swift */; };
+		4D44BDC23964E8D623CE5794 /* Pods_GrapesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412DA88490BBA6178F143B2C /* Pods_GrapesTests.framework */; };
+		6FE767F9D98321E2ECD16899 /* Pods_Grapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982FCFD69BDA372721EE4A09 /* Pods_Grapes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,7 @@
 /* Begin PBXFileReference section */
 		1E1677771EC889AA0053C4E8 /* Grapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E16777C1EC889AA0053C4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E16777C1EC889AA0053C4E8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1E16777F1EC889AC0053C4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E1677811EC889AD0053C4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1677841EC889AD0053C4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,18 @@
 		1E16778B1EC889AE0053C4E8 /* GrapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E16778F1EC889AE0053C4E8 /* GrapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapesTests.swift; sourceTree = "<group>"; };
 		1E1677911EC889AF0053C4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E16779D1EC88D6F0053C4E8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1E16779F1EC891F80053C4E8 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1E6626661EC9D31C0001275F /* DropShadow Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropShadow Protocol.swift"; sourceTree = "<group>"; };
+		1E6626681EC9D33F0001275F /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		1E66266A1EC9D64B0001275F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1EF134111ECA4104000363C1 /* ProductLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLayout.swift; sourceTree = "<group>"; };
+		412DA88490BBA6178F143B2C /* Pods_GrapesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrapesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		982FCFD69BDA372721EE4A09 /* Pods_Grapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B179D52C7730B95062D530B8 /* Pods-GrapesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrapesTests/Pods-GrapesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDC4627C143977AAFC26D7B9 /* Pods-Grapes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grapes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grapes/Pods-Grapes.release.xcconfig"; sourceTree = "<group>"; };
+		F311E9E21F43200C529DB77C /* Pods-Grapes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grapes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grapes/Pods-Grapes.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CA5995D9795A208B4A574E /* Pods-GrapesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrapesTests/Pods-GrapesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE767F9D98321E2ECD16899 /* Pods_Grapes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D44BDC23964E8D623CE5794 /* Pods_GrapesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +84,8 @@
 				1E1677791EC889AA0053C4E8 /* Grapes */,
 				1E16778E1EC889AE0053C4E8 /* GrapesTests */,
 				1E1677781EC889AA0053C4E8 /* Products */,
+				7E1B615D646D3ED3F7FC5613 /* Pods */,
+				938D76334AE9323E968F2098 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +101,12 @@
 		1E1677791EC889AA0053C4E8 /* Grapes */ = {
 			isa = PBXGroup;
 			children = (
+				1E66266A1EC9D64B0001275F /* Constants.swift */,
+				1E6626651EC9D3090001275F /* Utli */,
+				1E16779C1EC889D70053C4E8 /* Controller */,
+				1E16779B1EC889D20053C4E8 /* View */,
+				1E16779A1EC889C80053C4E8 /* Model */,
 				1E16777A1EC889AA0053C4E8 /* AppDelegate.swift */,
-				1E16777C1EC889AA0053C4E8 /* ViewController.swift */,
 				1E16777E1EC889AC0053C4E8 /* Main.storyboard */,
 				1E1677811EC889AD0053C4E8 /* Assets.xcassets */,
 				1E1677831EC889AD0053C4E8 /* LaunchScreen.storyboard */,
@@ -96,6 +124,60 @@
 			path = GrapesTests;
 			sourceTree = "<group>";
 		};
+		1E16779A1EC889C80053C4E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E16779F1EC891F80053C4E8 /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E16779B1EC889D20053C4E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E16779D1EC88D6F0053C4E8 /* CollectionViewCell.swift */,
+				1E6626681EC9D33F0001275F /* FancyView.swift */,
+				1EF134111ECA4104000363C1 /* ProductLayout.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E16779C1EC889D70053C4E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E16777C1EC889AA0053C4E8 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E6626651EC9D3090001275F /* Utli */ = {
+			isa = PBXGroup;
+			children = (
+				1E6626661EC9D31C0001275F /* DropShadow Protocol.swift */,
+			);
+			name = Utli;
+			sourceTree = "<group>";
+		};
+		7E1B615D646D3ED3F7FC5613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F311E9E21F43200C529DB77C /* Pods-Grapes.debug.xcconfig */,
+				CDC4627C143977AAFC26D7B9 /* Pods-Grapes.release.xcconfig */,
+				F5CA5995D9795A208B4A574E /* Pods-GrapesTests.debug.xcconfig */,
+				B179D52C7730B95062D530B8 /* Pods-GrapesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		938D76334AE9323E968F2098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982FCFD69BDA372721EE4A09 /* Pods_Grapes.framework */,
+				412DA88490BBA6178F143B2C /* Pods_GrapesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E1677941EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "Grapes" */;
 			buildPhases = (
+				68A04A3097ADDAC4E60D61F0 /* [CP] Check Pods Manifest.lock */,
 				1E1677731EC889A90053C4E8 /* Sources */,
 				1E1677741EC889A90053C4E8 /* Frameworks */,
 				1E1677751EC889A90053C4E8 /* Resources */,
+				0F6D4A426121FB12E4E8A4AC /* [CP] Embed Pods Frameworks */,
+				51C2663B901F2DB39C2F61F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E1677971EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "GrapesTests" */;
 			buildPhases = (
+				04873EF504706856C513AFD2 /* [CP] Check Pods Manifest.lock */,
 				1E1677871EC889AE0053C4E8 /* Sources */,
 				1E1677881EC889AE0053C4E8 /* Frameworks */,
 				1E1677891EC889AE0053C4E8 /* Resources */,
+				B691EAF4BAFCDF4398617C7C /* [CP] Embed Pods Frameworks */,
+				292E750252A36EFFEA3D1966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +284,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04873EF504706856C513AFD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F6D4A426121FB12E4E8A4AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grapes/Pods-Grapes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292E750252A36EFFEA3D1966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrapesTests/Pods-GrapesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C2663B901F2DB39C2F61F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grapes/Pods-Grapes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A04A3097ADDAC4E60D61F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B691EAF4BAFCDF4398617C7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrapesTests/Pods-GrapesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E1677731EC889A90053C4E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E16777D1EC889AA0053C4E8 /* ViewController.swift in Sources */,
+				1E16777D1EC889AA0053C4E8 /* MainVC.swift in Sources */,
+				1E1677A01EC891F80053C4E8 /* Product.swift in Sources */,
+				1E6626691EC9D33F0001275F /* FancyView.swift in Sources */,
 				1E16777B1EC889AA0053C4E8 /* AppDelegate.swift in Sources */,
+				1E66266B1EC9D64B0001275F /* Constants.swift in Sources */,
+				1EF134121ECA4104000363C1 /* ProductLayout.swift in Sources */,
+				1E6626671EC9D31C0001275F /* DropShadow Protocol.swift in Sources */,
+				1E16779E1EC88D6F0053C4E8 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +526,7 @@
 		};
 		1E1677951EC889AF0053C4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F311E9E21F43200C529DB77C /* Pods-Grapes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PD448JSVP;
@@ -352,6 +540,7 @@
 		};
 		1E1677961EC889AF0053C4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC4627C143977AAFC26D7B9 /* Pods-Grapes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PD448JSVP;
@@ -365,6 +554,7 @@
 		};
 		1E1677981EC889AF0053C4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CA5995D9795A208B4A574E /* Pods-GrapesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +570,7 @@
 		};
 		1E1677991EC889AF0053C4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B179D52C7730B95062D530B8 /* Pods-GrapesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +603,7 @@
 				1E1677961EC889AF0053C4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E1677971EC889AF0053C4E8 /* Build configuration list for PBXNativeTarget "GrapesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +612,7 @@
 				1E1677991EC889AF0053C4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
